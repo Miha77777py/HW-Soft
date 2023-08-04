@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url(../fonts/Comic\ Sans\ MS.ttf);
+}
+
+body {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    background-image: url(../images/bg.png);
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline orange;
+}
+
+a {
+    color: inherit;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: orange;
+}
+
+span {
+    color: orange;
+}
